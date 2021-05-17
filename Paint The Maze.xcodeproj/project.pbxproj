@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A9CA50256F54770001B219 /* ConfettiParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49A9CA4F256F54770001B219 /* ConfettiParticle.sks */; };
+		49A9CA55256F5B330001B219 /* swipe_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49A9CA54256F5B330001B219 /* swipe_sound.mp3 */; };
+		49A9CA942575C17C0001B219 /* Ta Da.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 49A9CA932575C17C0001B219 /* Ta Da.mp3 */; };
+		49B72BC125578A4600721443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B72BC025578A4600721443 /* AppDelegate.swift */; };
+		49B72BC325578A4600721443 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49B72BC225578A4600721443 /* GameScene.sks */; };
+		49B72BC525578A4600721443 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49B72BC425578A4600721443 /* Actions.sks */; };
+		49B72BC725578A4600721443 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B72BC625578A4600721443 /* GameScene.swift */; };
+		49B72BC925578A4600721443 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B72BC825578A4600721443 /* GameViewController.swift */; };
+		49B72BCC25578A4600721443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B72BCA25578A4600721443 /* Main.storyboard */; };
+		49B72BCE25578A4700721443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B72BCD25578A4700721443 /* Assets.xcassets */; };
+		49B72BD925578A4700721443 /* Paint_The_MazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B72BD825578A4700721443 /* Paint_The_MazeTests.swift */; };
+		49B72BE425578A4700721443 /* Paint_The_MazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B72BE325578A4700721443 /* Paint_The_MazeUITests.swift */; };
+		49B72C3C2559A34300721443 /* PTMTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49B72C3B2559A34300721443 /* PTMTileSet.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49B72BD525578A4700721443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B72BB525578A4600721443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B72BBC25578A4600721443;
+			remoteInfo = "Paint The Maze";
+		};
+		49B72BE025578A4700721443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49B72BB525578A4600721443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49B72BBC25578A4600721443;
+			remoteInfo = "Paint The Maze";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49A9CA4F256F54770001B219 /* ConfettiParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ConfettiParticle.sks; sourceTree = "<group>"; };
+		49A9CA54256F5B330001B219 /* swipe_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = swipe_sound.mp3; sourceTree = "<group>"; };
+		49A9CA932575C17C0001B219 /* Ta Da.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ta Da.mp3"; sourceTree = "<group>"; };
+		49B72BBD25578A4600721443 /* Paint The Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paint The Maze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B72BC025578A4600721443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49B72BC225578A4600721443 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		49B72BC425578A4600721443 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		49B72BC625578A4600721443 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		49B72BC825578A4600721443 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		49B72BCB25578A4600721443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49B72BCD25578A4700721443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49B72BCF25578A4700721443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B72BD425578A4700721443 /* Paint The MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paint The MazeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B72BD825578A4700721443 /* Paint_The_MazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paint_The_MazeTests.swift; sourceTree = "<group>"; };
+		49B72BDA25578A4700721443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B72BDF25578A4700721443 /* Paint The MazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paint The MazeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49B72BE325578A4700721443 /* Paint_The_MazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paint_The_MazeUITests.swift; sourceTree = "<group>"; };
+		49B72BE525578A4700721443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49B72C3B2559A34300721443 /* PTMTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PTMTileSet.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49B72BBA25578A4600721443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B72BD125578A4700721443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B72BDC25578A4700721443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49B72BB425578A4600721443 = {
+			isa = PBXGroup;
+			children = (
+				49B72BBF25578A4600721443 /* Paint The Maze */,
+				49B72BD725578A4700721443 /* Paint The MazeTests */,
+				49B72BE225578A4700721443 /* Paint The MazeUITests */,
+				49B72BBE25578A4600721443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49B72BBE25578A4600721443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49B72BBD25578A4600721443 /* Paint The Maze.app */,
+				49B72BD425578A4700721443 /* Paint The MazeTests.xctest */,
+				49B72BDF25578A4700721443 /* Paint The MazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49B72BBF25578A4600721443 /* Paint The Maze */ = {
+			isa = PBXGroup;
+			children = (
+				49A9CA4F256F54770001B219 /* ConfettiParticle.sks */,
+				49B72C3B2559A34300721443 /* PTMTileSet.sks */,
+				49A9CA54256F5B330001B219 /* swipe_sound.mp3 */,
+				49A9CA932575C17C0001B219 /* Ta Da.mp3 */,
+				49B72BC225578A4600721443 /* GameScene.sks */,
+				49B72BC625578A4600721443 /* GameScene.swift */,
+				49B72BC825578A4600721443 /* GameViewController.swift */,
+				49B72BC025578A4600721443 /* AppDelegate.swift */,
+				49B72BC425578A4600721443 /* Actions.sks */,
+				49B72BCA25578A4600721443 /* Main.storyboard */,
+				49B72BCD25578A4700721443 /* Assets.xcassets */,
+				49B72BCF25578A4700721443 /* Info.plist */,
+			);
+			path = "Paint The Maze";
+			sourceTree = "<group>";
+		};
+		49B72BD725578A4700721443 /* Paint The MazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				49B72BD825578A4700721443 /* Paint_The_MazeTests.swift */,
+				49B72BDA25578A4700721443 /* Info.plist */,
+			);
+			path = "Paint The MazeTests";
+			sourceTree = "<group>";
+		};
+		49B72BE225578A4700721443 /* Paint The MazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49B72BE325578A4700721443 /* Paint_The_MazeUITests.swift */,
+				49B72BE525578A4700721443 /* Info.plist */,
+			);
+			path = "Paint The MazeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49B72BBC25578A4600721443 /* Paint The Maze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B72BE825578A4700721443 /* Build configuration list for PBXNativeTarget "Paint The Maze" */;
+			buildPhases = (
+				49B72BB925578A4600721443 /* Sources */,
+				49B72BBA25578A4600721443 /* Frameworks */,
+				49B72BBB25578A4600721443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paint The Maze";
+			productName = "Paint The Maze";
+			productReference = 49B72BBD25578A4600721443 /* Paint The Maze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49B72BD325578A4700721443 /* Paint The MazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B72BEB25578A4700721443 /* Build configuration list for PBXNativeTarget "Paint The MazeTests" */;
+			buildPhases = (
+				49B72BD025578A4700721443 /* Sources */,
+				49B72BD125578A4700721443 /* Frameworks */,
+				49B72BD225578A4700721443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B72BD625578A4700721443 /* PBXTargetDependency */,
+			);
+			name = "Paint The MazeTests";
+			productName = "Paint The MazeTests";
+			productReference = 49B72BD425578A4700721443 /* Paint The MazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49B72BDE25578A4700721443 /* Paint The MazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B72BEE25578A4700721443 /* Build configuration list for PBXNativeTarget "Paint The MazeUITests" */;
+			buildPhases = (
+				49B72BDB25578A4700721443 /* Sources */,
+				49B72BDC25578A4700721443 /* Frameworks */,
+				49B72BDD25578A4700721443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49B72BE125578A4700721443 /* PBXTargetDependency */,
+			);
+			name = "Paint The MazeUITests";
+			productName = "Paint The MazeUITests";
+			productReference = 49B72BDF25578A4700721443 /* Paint The MazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49B72BB525578A4600721443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					49B72BBC25578A4600721443 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					49B72BD325578A4700721443 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 49B72BBC25578A4600721443;
+					};
+					49B72BDE25578A4700721443 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 49B72BBC25578A4600721443;
+					};
+				};
+			};
+			buildConfigurationList = 49B72BB825578A4600721443 /* Build configuration list for PBXProject "Paint The Maze" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49B72BB425578A4600721443;
+			productRefGroup = 49B72BBE25578A4600721443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49B72BBC25578A4600721443 /* Paint The Maze */,
+				49B72BD325578A4700721443 /* Paint The MazeTests */,
+				49B72BDE25578A4700721443 /* Paint The MazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49B72BBB25578A4600721443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B72BCC25578A4600721443 /* Main.storyboard in Resources */,
+				49A9CA942575C17C0001B219 /* Ta Da.mp3 in Resources */,
+				49A9CA50256F54770001B219 /* ConfettiParticle.sks in Resources */,
+				49B72BC325578A4600721443 /* GameScene.sks in Resources */,
+				49B72C3C2559A34300721443 /* PTMTileSet.sks in Resources */,
+				49B72BCE25578A4700721443 /* Assets.xcassets in Resources */,
+				49A9CA55256F5B330001B219 /* swipe_sound.mp3 in Resources */,
+				49B72BC525578A4600721443 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B72BD225578A4700721443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B72BDD25578A4700721443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49B72BB925578A4600721443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B72BC725578A4600721443 /* GameScene.swift in Sources */,
+				49B72BC925578A4600721443 /* GameViewController.swift in Sources */,
+				49B72BC125578A4600721443 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B72BD025578A4700721443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B72BD925578A4700721443 /* Paint_The_MazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49B72BDB25578A4700721443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B72BE425578A4700721443 /* Paint_The_MazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49B72BD625578A4700721443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B72BBC25578A4600721443 /* Paint The Maze */;
+			targetProxy = 49B72BD525578A4700721443 /* PBXContainerItemProxy */;
+		};
+		49B72BE125578A4700721443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49B72BBC25578A4600721443 /* Paint The Maze */;
+			targetProxy = 49B72BE025578A4700721443 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49B72BCA25578A4600721443 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49B72BCB25578A4600721443 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49B72BE625578A4700721443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49B72BE725578A4700721443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49B72BE925578A4700721443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paint The Maze/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Paint-The-Maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49B72BEA25578A4700721443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paint The Maze/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Paint-The-Maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49B72BEC25578A4700721443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paint The MazeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Paint-The-MazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint The Maze.app/Paint The Maze";
+			};
+			name = Debug;
+		};
+		49B72BED25578A4700721443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paint The MazeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Paint-The-MazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paint The Maze.app/Paint The Maze";
+			};
+			name = Release;
+		};
+		49B72BEF25578A4700721443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paint The MazeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Paint-The-MazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paint The Maze";
+			};
+			name = Debug;
+		};
+		49B72BF025578A4700721443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paint The MazeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Paint-The-MazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paint The Maze";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49B72BB825578A4600721443 /* Build configuration list for PBXProject "Paint The Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B72BE625578A4700721443 /* Debug */,
+				49B72BE725578A4700721443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B72BE825578A4700721443 /* Build configuration list for PBXNativeTarget "Paint The Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B72BE925578A4700721443 /* Debug */,
+				49B72BEA25578A4700721443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B72BEB25578A4700721443 /* Build configuration list for PBXNativeTarget "Paint The MazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B72BEC25578A4700721443 /* Debug */,
+				49B72BED25578A4700721443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B72BEE25578A4700721443 /* Build configuration list for PBXNativeTarget "Paint The MazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B72BEF25578A4700721443 /* Debug */,
+				49B72BF025578A4700721443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49B72BB525578A4600721443 /* Project object */;
+}
