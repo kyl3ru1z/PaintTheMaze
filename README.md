@@ -5,3 +5,6 @@ Created a PaintTheMaze clone using SpriteKit. Paint the Maze is a puzzle game wh
 - Creating sprite sheets
 - Object detection
 - Creating particle effects 
+
+# Demo 
+<img src="gifs/maze.gif" height="500">
